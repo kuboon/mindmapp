@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1573405154277,
+  "timestamp": 1581428154215,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,12 +10,12 @@
       "urls": [
         "/1.43b02f74a2501c511518.js",
         "/6.514c9f382ec70d5ffcc3.js",
-        "/7.9b78a449af6eaec5a8c7.js",
+        "/7.f291294b48f73e1441f6.js",
         "/index.html",
-        "/main.bc49f482ad25229e40bc.js",
+        "/main.d4ee48dc8778fb7f8499.js",
         "/polyfills-es5.1eac3160ec41f24d5b70.js",
         "/polyfills.6d58dbd0f7d435f2bbae.js",
-        "/runtime.a5114973fe0e7d196fdf.js",
+        "/runtime.c6bbfccdcf0ea411bb8d.js",
         "/styles.108fb89d2d0c98caa13c.css"
       ],
       "patterns": []
@@ -74,13 +74,13 @@
   "hashTable": {
     "/1.43b02f74a2501c511518.js": "8e56e9b692a33f75efc16073e87a580aec9f5908",
     "/6.514c9f382ec70d5ffcc3.js": "ebc5cdd761da7117a1e000eb9037c4ceba860999",
-    "/7.9b78a449af6eaec5a8c7.js": "5e93cf8be7645f6d2efdbe6af334c9bf4567069d",
+    "/7.f291294b48f73e1441f6.js": "82c4d49f217f7ceed48a56af5d9f7c53ead9abb8",
     "/MaterialIcons-Regular.012cf6a10129e2275d79.woff": "c6c953c2ccb2ca9abb21db8dbf473b5a435f0082",
     "/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2": "09963592e8c953cc7e14e3fb0a5b05d5042e8435",
     "/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf": "fc05de31234e0090f7ddc28ce1b23af4026cb1da",
     "/MaterialIcons-Regular.e79bfd88537def476913.eot": "26fb8cecb5512223277b4d290a24492a0f09ede1",
     "/SourceSansPro-Regular.5182da425f811908bed9.ttf": "17c25475c0369f7f8c8462af9cf127a4cf6f1332",
-    "/assets/data/settings.json": "846335c4a565d6d359e7c79e3ff8aa592309b8df",
+    "/assets/data/settings.json": "e9fe0189903bb3b6f7ac1c423a12676d82094888",
     "/assets/font/source-sans-pro/OFL.txt": "776022200ed55beb7ba02ee971ad18d47b1ffa89",
     "/assets/font/source-sans-pro/SourceSansPro-Black.ttf": "9c4f1e24a28c69990501126d08aa84d1c2928f82",
     "/assets/font/source-sans-pro/SourceSansPro-BlackItalic.ttf": "5515c955ac123d80bd8d1c7bfe39fbc4d219d015",
@@ -94,7 +94,7 @@
     "/assets/font/source-sans-pro/SourceSansPro-Regular.ttf": "17c25475c0369f7f8c8462af9cf127a4cf6f1332",
     "/assets/font/source-sans-pro/SourceSansPro-SemiBold.ttf": "cc116f72a3684fd57b8852a41828889fbe079560",
     "/assets/font/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf": "f10784342b3db8cc7dd496012d65484f1c460f17",
-    "/assets/i18n/en.json": "ed0e621dd0e13526b93fc9c62d9e8aad939b1d65",
+    "/assets/i18n/en.json": "701b3db929856958c3bb9cbd3454d67eb2a55885",
     "/assets/i18n/es.json": "8e66f19977456f55468ee1d3bef3db5272315293",
     "/assets/i18n/fr.json": "db9f9deb5ab7dccc38f643f53a03096db51bd460",
     "/assets/i18n/it.json": "13fa82c0fcc662c81f0bd0678f1f813cce873bf3",
@@ -116,11 +116,11 @@
     "/assets/images/readme-header.png": "e74564b4dbeb919e9461d31556f2cc8ef83d42d6",
     "/assets/images/screens.png": "8b1422d8fe149af748562399618ac8e313634ec8",
     "/assets/images/solar-system.png": "87277938a5440cd0260d4dd41749d5543de4582c",
-    "/index.html": "79d1e06cfa0141ddd411e2cc734084b731dba0c3",
-    "/main.bc49f482ad25229e40bc.js": "d6e9909bc490adab0b4d589740da689ddffe9aa2",
+    "/index.html": "efb083cb5debf459dac82d64d051fa7e22845c14",
+    "/main.d4ee48dc8778fb7f8499.js": "7173cf07e3fceb2b08781e67a996b2b212484423",
     "/polyfills-es5.1eac3160ec41f24d5b70.js": "3d4101858a5a17d0c6ddd5f9ee2ffd2d3246a279",
     "/polyfills.6d58dbd0f7d435f2bbae.js": "75c108010d8fd23cb21dabf853bcf9b377d8b7a1",
-    "/runtime.a5114973fe0e7d196fdf.js": "19ae4f528e91c7b6bcc26097f81e0e2084a6919b",
+    "/runtime.c6bbfccdcf0ea411bb8d.js": "b792623774f4c219087041f4150adfb37264256f",
     "/styles.108fb89d2d0c98caa13c.css": "21f04e57b530938e191488cb8a041abfa3fd3450"
   },
   "navigationUrls": [
