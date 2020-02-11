@@ -59,13 +59,19 @@ export class ShortcutsService {
                 this.mmpService.center()
             }
         }, {
-            keys: '+',
-            description: 'TOOLTIPS.ADD_NODE',
+            keys: 'enter',
+            description: 'TOOLTIPS.ADD_SIBLING',
+            callback: () => {
+                this.mmpService.addNode({onParent: true})
+            }
+        }, {
+            keys: 'tab',
+            description: 'TOOLTIPS.ADD_CHILD',
             callback: () => {
                 this.mmpService.addNode()
             }
         }, {
-            keys: '-',
+            keys: 'del',
             description: 'TOOLTIPS.REMOVE_NODE',
             callback: () => {
                 this.mmpService.removeNode()
