@@ -6,7 +6,7 @@
         "centerOnResize": false,
         "autoBranchColors": false,
         "defaultNode": {
-            "name": "Node",
+            "name": "",
             "image": {
                 "src": "",
                 "size": 60

@@ -63,12 +63,14 @@ export class ShortcutsService {
             description: 'TOOLTIPS.ADD_SIBLING',
             callback: () => {
                 this.mmpService.addNode({onParent: true})
+                this.mmpService.editNode()
             }
         }, {
             keys: 'tab',
             description: 'TOOLTIPS.ADD_CHILD',
             callback: () => {
                 this.mmpService.addNode()
+                this.mmpService.editNode()
             }
         }, {
             keys: 'del',
