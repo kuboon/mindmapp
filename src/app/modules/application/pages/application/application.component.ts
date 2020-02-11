@@ -80,7 +80,8 @@ export class ApplicationComponent implements OnInit {
             this.mapCacheService.updateAttachedMap()
         })
 
-        this.mmpService.on('nodeCreate').subscribe(() => {
+        this.mmpService.on('nodeCreate').subscribe((node) => {
+            this.mmpService.selectNode(node.id)
             this.mapCacheService.updateAttachedMap()
         })
 

@@ -148,7 +148,7 @@ export class MmpService {
     /**
      * Return the subscribe of the mind mmp event with the node or nothing.
      */
-    public on (event: string): Observable<Array<any>> {
+    public on (event: string): Observable<mmp.Node> {
         return new Observable((observer) => {
             this.currentMap.on(event, (...args) => {
                 observer.next(...args)
@@ -162,6 +162,7 @@ export class MmpService {
     public addNode (properties: any = {}) {
         const selected = this.selectNode()
         const settings = this.settingsService.getCachedSettings()
+        let id
 
         if (selected.colors.branch) {
             properties.colors = {
@@ -174,8 +175,12 @@ export class MmpService {
                 branch: this.branchColors[children % this.branchColors.length]
             }
         }
-
-        this.currentMap.addNode(properties)
+        
+        if (properties.onParent){
+            delete properties["onParent"]
+            id = selected.parent
+        }
+        this.currentMap.addNode(properties, id)
     }
 
     /**
