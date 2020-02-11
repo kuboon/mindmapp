@@ -50,6 +50,7 @@ export class ShortcutsService {
             description: 'TOOLTIPS.NEW_MAP',
             callback: () => {
                 this.mmpService.new()
+                this.mapCacheService.attachNewMap()
             }
         }, {
             keys: 'c',
